@@ -146,6 +146,13 @@ letter-spacing: -0.2px;
   margin-left: 16px;
   cursor: pointer;
 }
+.title__button:hover{
+  opacity: 0.8;
+}
+.title__button:active{
+  transform: translateY(2px);
+
+}
 .title-menu__checkstatus{
   background-image: url("../img/checkstatus.svg");
   margin-left: 10px;
@@ -191,7 +198,7 @@ letter-spacing: -0.2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
 }
 .info-block__text p {
   width: 288px;
@@ -252,7 +259,7 @@ letter-spacing: -0.2px;
 
   .info-block__image {
     width: 360px;
-    
+
   }
   .info-block__image img {
     border-radius: 6px;
